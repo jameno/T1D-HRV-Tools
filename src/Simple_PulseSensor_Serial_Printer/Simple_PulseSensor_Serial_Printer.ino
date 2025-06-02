@@ -26,7 +26,7 @@ void loop() {
    if(Signal > Threshold){                          // If the signal is above "550", then "turn-on" Arduino's on-Board LED.
      digitalWrite(LED,HIGH);
    } else {
-     digitalWrite(LED,LOW);                //  Else, the sigal must be below "550", so "turn-off" this LED.
+     digitalWrite(LED,LOW);                //  Else, the signal must be below "550", so "turn-off" this LED.
    }
 
 
